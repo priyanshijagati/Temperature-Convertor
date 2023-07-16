@@ -1,0 +1,104 @@
+*{
+    color: black;
+    background-color: rgb(230, 206, 175) ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+    margin-top: 15%;
+    border-radius: 5%;
+    max-width: 550px;
+    background-color:antiquewhite;
+    padding: 10px;
+    box-shadow: 3px 10px 19px 5px;
+    
+}
+.heading{
+    
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+h1{
+    color: black;
+}
+.temp-icon{
+    font-size: 35px;
+    color: black;
+}
+#celsius{
+   
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    
+    font-size: 20px;
+    color: black;
+    background-color: rgb(207, 177, 137);
+    
+}
+/**for chrome **/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input{
+    border: none;
+    background-color: rgb(207, 177, 137);
+    text-align: center;
+    font-size:18px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#fahrenheit{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#kelvin{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}   
+.clear{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+button{
+    font-size: 16px;
+    color: black;
+    background-color: rgb(252, 221, 181);
+    width: 15%;
+    box-shadow: 0px 0px 2px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: black ;
+    color: white;
+
+}
